@@ -1,0 +1,23 @@
+{
+  "method": "bert",
+  "pretrained_model": "google-bert/bert-base-uncased",
+  "max_length": 64,
+  "epochs": 3,
+  "selected_epoch": 3,
+  "batch_size": 16,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "seed": 42,
+  "device": "mps",
+  "seconds": 873.9849159590085,
+  "smoke": false,
+  "val": {
+    "accuracy": 0.9756944444444444,
+    "macro_f1": 0.9469273220047043
+  },
+  "test": {
+    "accuracy": 0.984375,
+    "macro_f1": 0.9661593442045554
+  }
+}

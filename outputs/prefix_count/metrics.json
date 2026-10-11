@@ -1,0 +1,14 @@
+{
+  "method": "prefix_count",
+  "C": 0.1,
+  "content_wordpieces": 62,
+  "vocabulary_size": 23959,
+  "val": {
+    "accuracy": 0.9609375,
+    "macro_f1": 0.9234663244655245
+  },
+  "test": {
+    "accuracy": 0.9644097222222222,
+    "macro_f1": 0.9232783380844239
+  }
+}

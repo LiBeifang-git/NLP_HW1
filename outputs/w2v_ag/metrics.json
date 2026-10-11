@@ -1,0 +1,61 @@
+{
+  "method": "w2v_ag",
+  "selected_C": 1.0,
+  "validation_search": [
+    {
+      "C": 0.1,
+      "accuracy": 0.9418402777777778,
+      "macro_f1": 0.8760115690157954,
+      "iterations": 17
+    },
+    {
+      "C": 1.0,
+      "accuracy": 0.9618055555555556,
+      "macro_f1": 0.9113708227706548,
+      "iterations": 18
+    },
+    {
+      "C": 10.0,
+      "accuracy": 0.9583333333333334,
+      "macro_f1": 0.9073605641112749,
+      "iterations": 17
+    }
+  ],
+  "lr_seconds": 0.2975462499889545,
+  "dimension": 100,
+  "feature_seconds": 106.90283508296125,
+  "coverage": {
+    "train": {
+      "token_coverage": 0.9735780901046351,
+      "zero_documents": 0
+    },
+    "val": {
+      "token_coverage": 0.9727217931662185,
+      "zero_documents": 0
+    },
+    "test": {
+      "token_coverage": 0.9734565116476734,
+      "zero_documents": 0
+    }
+  },
+  "tokenization": "lowercase [a-z]+",
+  "corpus_documents": 90000,
+  "corpus_tokens": 3454568,
+  "vocabulary_size": 35688,
+  "word2vec": {
+    "sg": 1,
+    "window": 5,
+    "min_count": 2,
+    "epochs": 5,
+    "workers": 1,
+    "seed": 42
+  },
+  "val": {
+    "accuracy": 0.9618055555555556,
+    "macro_f1": 0.9113708227706548
+  },
+  "test": {
+    "accuracy": 0.9713541666666666,
+    "macro_f1": 0.9307057264669801
+  }
+}

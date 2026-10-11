@@ -1,0 +1,8 @@
+{
+  "python": "3.12.14 (main, Sep  3 2026, 03:46:19) [Clang 21.1.8 ]",
+  "numpy": "1.26.4",
+  "scipy": "1.12.0",
+  "pandas": "3.0.6",
+  "scikit-learn": "1.9.1",
+  "gensim": "4.3.3"
+}

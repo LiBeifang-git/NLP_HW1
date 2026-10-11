@@ -1,0 +1,26 @@
+{
+  "train": {
+    "n": 9215,
+    "classes": {
+      "sports": 6911,
+      "politics": 1161,
+      "business": 1143
+    }
+  },
+  "val": {
+    "n": 1152,
+    "classes": {
+      "sports": 864,
+      "politics": 145,
+      "business": 143
+    }
+  },
+  "test": {
+    "n": 1152,
+    "classes": {
+      "sports": 864,
+      "politics": 145,
+      "business": 143
+    }
+  }
+}

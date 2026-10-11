@@ -1,0 +1,14 @@
+{
+  "method": "prefix_binary",
+  "C": 0.1,
+  "content_wordpieces": 62,
+  "vocabulary_size": 23959,
+  "val": {
+    "accuracy": 0.9600694444444444,
+    "macro_f1": 0.9212622461906129
+  },
+  "test": {
+    "accuracy": 0.9600694444444444,
+    "macro_f1": 0.9176419881821342
+  }
+}

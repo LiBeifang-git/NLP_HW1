@@ -1,0 +1,59 @@
+{
+  "method": "glove",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "1.26.4",
+    "scipy": "1.12.0",
+    "scikit-learn": "1.9.1",
+    "gensim": "4.3.3"
+  },
+  "selected_C": 10.0,
+  "validation_search": [
+    {
+      "C": 0.1,
+      "accuracy": 0.9618055555555556,
+      "macro_f1": 0.9182567566962718,
+      "iterations": 26
+    },
+    {
+      "C": 1.0,
+      "accuracy": 0.9756944444444444,
+      "macro_f1": 0.9453699101563281,
+      "iterations": 32
+    },
+    {
+      "C": 10.0,
+      "accuracy": 0.9774305555555556,
+      "macro_f1": 0.9509566893178237,
+      "iterations": 38
+    }
+  ],
+  "lr_seconds": 0.3351438749814406,
+  "dimension": 100,
+  "feature_seconds": 8.072624042048119,
+  "coverage": {
+    "train": {
+      "token_coverage": 0.997826004151191,
+      "zero_documents": 0
+    },
+    "val": {
+      "token_coverage": 0.9976574571395203,
+      "zero_documents": 0
+    },
+    "test": {
+      "token_coverage": 0.9978829544488685,
+      "zero_documents": 0
+    }
+  },
+  "tokenization": "lowercase [a-z]+",
+  "source": "Stanford glove.6B.100d",
+  "loaded_needed_vectors": 57809,
+  "val": {
+    "accuracy": 0.9774305555555556,
+    "macro_f1": 0.9509566893178237
+  },
+  "test": {
+    "accuracy": 0.9835069444444444,
+    "macro_f1": 0.9619283926177685
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "fractions": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "sampling_seeds": [
+    42,
+    43,
+    44
+  ],
+  "split_seed": 42,
+  "full_data_runs": 1,
+  "std": "sample standard deviation; full-data error bar omitted",
+  "selection": "C selected on fixed validation set; test never used for selection",
+  "python": "3.13.9",
+  "numpy": "2.2.6",
+  "sklearn": "1.8.0"
+}
